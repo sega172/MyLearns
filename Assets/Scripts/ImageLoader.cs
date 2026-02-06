@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
@@ -23,6 +24,8 @@ public class ImageLoader : MonoBehaviour
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
             image.sprite = handle.Result;
+
+            await Task.Delay(5000);
             Addressables.Release(handle);
         }
     }
