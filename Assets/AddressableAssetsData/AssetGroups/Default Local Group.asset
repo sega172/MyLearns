@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bb46b0717e937f4e8e422b39c6ed698
+    m_Address: MySprite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c351430f1d718e448acdf4fba7e1bff2
     m_Address: Assets/Materials/1.mat
     m_ReadOnly: 0

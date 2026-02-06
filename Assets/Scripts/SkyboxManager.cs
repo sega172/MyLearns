@@ -6,7 +6,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class SkyboxManager : MonoBehaviour
 {
-    [SerializeField] List<AssetReference> SkyboxMaterials;
+    [SerializeField] private List<AssetReference> SkyboxMaterials;
 
     private AsyncOperationHandle<Material> operationHandle;
 
