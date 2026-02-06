@@ -7,7 +7,14 @@ public class PrefabLoader : MonoBehaviour
     [SerializeField] AssetReference prefabRef;
 
 
-    public void LoadPrefabPlease() => LoadPrefab();
+    public void LoadPrefabPlease()
+    {
+        //Вариант 1.
+        //LoadPrefab();
+
+        //Вариант 2. Одной командой
+        prefabRef.InstantiateAsync();
+    }
 
     private async void LoadPrefab()
     {

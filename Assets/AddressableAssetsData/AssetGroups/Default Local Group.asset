@@ -40,6 +40,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df6e80183ce6c8c40b78f2ca59e203f6
+    m_Address: Assets/Scenes/AddressablesSceneToLoad.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7a0913d929cc8eb43bbf20290424ee41, type: 2}
   m_SchemaSet:
